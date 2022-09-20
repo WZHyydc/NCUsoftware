@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style6.css"> 
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+     <script src="https://www.jq22.com/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://www.jq22.com/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <title>周围经典餐饮点</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>&nbsp&nbsp&nbsp&nbsp周围经典餐饮点 <small>enjoy time!</small> 
+        </h1>
+    </div>
+    <nav class="navbar navbar-default" role="navigation" id="navigation" >
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#home" onclick=refresh() >热门商区</a>
+        </div>
+        <div>
+        <ul class="nav navbar-nav" >
+                    <li ><a href="#meng" class="mg" onclick=open()>恒茂梦时代</a></li>
+                    <li><a href="#wanda" class="mg" >万达广场</a></li>
+                    <li><a href="#flower"  class="mg">百花洲</a></li>
+                    <li><a href="#zhongsan"  class="mg">中山路</a></li>
+                    <li><a href="#huizan"  class="mg">会展路</a></li>
+                    <li >
+                        <form class="example"  id="search" action="/" style="margin-left: 390px; max-width:600px">
+                        <input type="text" placeholder="该功能尚未开启..." name="search2" class="cannot1"  disabled >
+                        <button type="submit" class="btn btn-info disabled" disabled><i class="fa fa-search" > </i></button>
+                        </form>
+                
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="home" class="h">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/黄小七.jpg" alt="...">
+                        <h3>明记茶餐厅(梦时代店)</h3>
+                        <p>地址: 背景东路408号恒茂梦时代广场C栋3层23号<br>电话: 18970039841 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0G39SNGEH?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/2.jpg" id="img1" alt="...">
+                        <h3>二朴炸鸡社(上海路店)</h3>
+                        <p>地址: 南昌市青山湖区上海北路180号附近<br>电话: 13387080825 <br>营业时间: 10:30-23:00</p>
+                        <p><a href="https://www.amap.com/detail/B0HA5HLEUL?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/3.jpg" id="img1" alt="...">
+                        <h3>塔斯汀中国汉堡(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区江大南路193号综合楼1层<br>电话: 13065180369 <br>营业时间: 08:00-01:00</p>
+                        <p><a href="https://www.amap.com/detail/B0GUK5FFS6?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/4.jpg" id="img1" alt="...">
+                        <h3>老四川川菜馆(南京路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路254号<br>电话: 13155835282 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0FFFV72UU?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/5.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/6.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="meng">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/1.jpg" alt="...">
+                        <h3>明记茶餐厅(梦时代店)</h3>
+                        <p>地址: 背景东路408号恒茂梦时代广场C栋3层23号<br>电话: 18970039841 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0G39SNGEH?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/3.jpg" id="img1" alt="...">
+                        <h3>二朴炸鸡社(上海路店)</h3>
+                        <p>地址: 南昌市青山湖区上海北路180号附近<br>电话: 13387080825 <br>营业时间: 10:30-23:00</p>
+                        <p><a href="https://www.amap.com/detail/B0HA5HLEUL?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/9.jpg" id="img1" alt="...">
+                        <h3>塔斯汀中国汉堡(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区江大南路193号综合楼1层<br>电话: 13065180369 <br>营业时间: 08:00-01:00</p>
+                        <p><a href="https://www.amap.com/detail/B0GUK5FFS6?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/10.jpg" id="img1" alt="...">
+                        <h3>老四川川菜馆(南京路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路254号<br>电话: 13155835282 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0FFFV72UU?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/11.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/12 - 副本.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wanda">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/18 - 副本.jpg" alt="...">
+                        <h3>黄小七素咖(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路198号一楼<br>电话: 18970039841 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0G39SNGEH?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/17 - 副本.jpg" id="img1" alt="...">
+                        <h3>二朴炸鸡社(上海路店)</h3>
+                        <p>地址: 南昌市青山湖区上海北路180号附近<br>电话: 13387080825 <br>营业时间: 10:30-23:00</p>
+                        <p><a href="https://www.amap.com/detail/B0HA5HLEUL?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/14 - 副本.jpg" id="img1" alt="...">
+                        <h3>塔斯汀中国汉堡(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区江大南路193号综合楼1层<br>电话: 13065180369 <br>营业时间: 08:00-01:00</p>
+                        <p><a href="https://www.amap.com/detail/B0GUK5FFS6?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/15 - 副本.jpg" id="img1" alt="...">
+                        <h3>老四川川菜馆(南京路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路254号<br>电话: 13155835282 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0FFFV72UU?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/6.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/4.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="flower">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/13 - 副本.jpg" alt="...">
+                        <h3>黄小七素咖(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路198号一楼<br>电话: 18970039841 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0G39SNGEH?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/14 - 副本.jpg" id="img1" alt="...">
+                        <h3>二朴炸鸡社(上海路店)</h3>
+                        <p>地址: 南昌市青山湖区上海北路180号附近<br>电话: 13387080825 <br>营业时间: 10:30-23:00</p>
+                        <p><a href="https://www.amap.com/detail/B0HA5HLEUL?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/15 - 副本.jpg" id="img1" alt="...">
+                        <h3>塔斯汀中国汉堡(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区江大南路193号综合楼1层<br>电话: 13065180369 <br>营业时间: 08:00-01:00</p>
+                        <p><a href="https://www.amap.com/detail/B0GUK5FFS6?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/16 - 副本.jpg" id="img1" alt="...">
+                        <h3>老四川川菜馆(南京路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路254号<br>电话: 13155835282 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0FFFV72UU?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/暂定.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/暂定.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="zhongsan">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/黄小七.jpg" alt="...">
+                        <h3>明记茶餐厅(梦时代店)</h3>
+                        <p>地址: 背景东路408号恒茂梦时代广场C栋3层23号<br>电话: 18970039841 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0G39SNGEH?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/4.jpg" id="img1" alt="...">
+                        <h3>二朴炸鸡社(上海路店)</h3>
+                        <p>地址: 南昌市青山湖区上海北路180号附近<br>电话: 13387080825 <br>营业时间: 10:30-23:00</p>
+                        <p><a href="https://www.amap.com/detail/B0HA5HLEUL?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/5.jpg" id="img1" alt="...">
+                        <h3>塔斯汀中国汉堡(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区江大南路193号综合楼1层<br>电话: 13065180369 <br>营业时间: 08:00-01:00</p>
+                        <p><a href="https://www.amap.com/detail/B0GUK5FFS6?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/7.jpg" id="img1" alt="...">
+                        <h3>老四川川菜馆(南京路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路254号<br>电话: 13155835282 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0FFFV72UU?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/3.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="./images/6.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+        </div>
+        </div>
+        <div id="huizan">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/黄小七.jpg" alt="...">
+                        <h3>黄小七素咖(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路198号一楼<br>电话: 18970039841 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0G39SNGEH?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/二朴炸鸡.jpg" id="img1" alt="...">
+                        <h3>二朴炸鸡社(上海路店)</h3>
+                        <p>地址: 南昌市青山湖区上海北路180号附近<br>电话: 13387080825 <br>营业时间: 10:30-23:00</p>
+                        <p><a href="https://www.amap.com/detail/B0HA5HLEUL?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/塔斯汀.jpg" id="img1" alt="...">
+                        <h3>塔斯汀中国汉堡(江大南路店)</h3>
+                        <p>地址: 南昌市青山湖区江大南路193号综合楼1层<br>电话: 13065180369 <br>营业时间: 08:00-01:00</p>
+                        <p><a href="https://www.amap.com/detail/B0GUK5FFS6?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/老四川.jpg" id="img1" alt="...">
+                        <h3>老四川川菜馆(南京路店)</h3>
+                        <p>地址: 南昌市青山湖区南京东路254号<br>电话: 13155835282 <br>营业时间: 10:00-22:00</p>
+                        <p><a href="https://www.amap.com/detail/B0FFFV72UU?citycode=360100" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/暂定.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+
+                    <div class="thumbnail">
+                        <img src="images/暂定.jpg" id="img1" alt="...">
+                        <h3>待定待定</h3>
+                        <p>地址: 待定待定待定待定<br>电话: 待定 <br>营业时间: 待定待定</p>
+                        <p><a href="#" class="btn btn-primary" role="button">点击查看地址</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

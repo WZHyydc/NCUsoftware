@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>周边娱乐</title>
+    <style>
+        #container {
+            height: 450px;
+            width: 350px;
+        }
+
+        #col1 {
+            height: 435px;
+        }
+
+        #twg {
+            margin-top: 100px;
+            width: 390px;
+            background-color: #fff;
+        }
+
+        #twgv {
+            object-fit: fill;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>&nbsp&nbsp&nbsp&nbsp周边娱乐 <small>happy time!</small>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/滕王阁.png" alt="...">
+                    <div class="caption">
+                        <h3>滕王阁</h3>
+                        <p>位于江西省南昌市东湖区，地处赣江东岸，为南昌市地标性建筑、豫章古文明之象征，始建于唐永徽四年（653年），为唐太宗李世民之弟滕王李元婴任江南洪州都督时所修，现存建筑为1985年重建景观
+                        </p>
+                        <p><a href="https://baike.baidu.com/item/%E6%BB%95%E7%8E%8B%E9%98%81/70500"
+                                class="btn btn-primary" role="button">查看详情</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div id="container"></div>
+                <script type="text/javascript"
+                    src="https://webapi.amap.com/maps?v=1.4.15&key=	d2f659f1c6ac2ddc70251f5e9989b721"></script>
+                <script type="text/javascript">
+                    var map = new AMap.Map("container", {
+                        zoom: 16,
+                        center: [115.881114, 28.681323],
+                        resizeEnable: true
+
+                    });
+
+                    AMap.plugin([
+                        'AMap.ToolBar',
+                    ], function () {
+                        map.addControl(new AMap.ToolBar({
+                            liteStyle: true
+                        }));
+                    });
+                </script>
+            </div>
+
+            <div class="col-md-4 center-block" id="twg">
+                <p>相关视频：</p>
+                <div class="embed-responsive embed-responsive-4by3 " id="twgv">
+                    <iframe class="embed-responsive-item" src="video/滕王阁.mp4"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="thumbnail">
+                    <img src="images/暂定.jpg" alt="...">
+                    <div class="caption">
+                        <h3>待定</h3>
+                        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                        </p>
+                        <p><a href="https://baike.baidu.com/item/%E6%BB%95%E7%8E%8B%E9%98%81/70500"
+                                class="btn btn-primary" role="button">查看详情</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="thumbnail">
+                    <img src="images/暂定.jpg" alt="...">
+                    <div class="caption">
+                        <h3>待定</h3>
+                        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                        </p>
+                        <p><a href="https://baike.baidu.com/item/%E6%BB%95%E7%8E%8B%E9%98%81/70500"
+                                class="btn btn-primary" role="button">查看详情</a>
+                    </div>
+
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+
+</html>

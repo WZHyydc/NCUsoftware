@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>登录</title>
+</head>
+<body>
+    <div class="container">
+        <h1>请登入</h1>
+        <form name="submitForm"  onsubmit="return validateForm();" method="post" target="frameName">
+            <div class="form-control">
+                <input type="text" required id="email" >
+                <label for="email">电子邮箱</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required id="password">
+                <label for="password">密码</label>
+            </div>
+            <!-- <button class="btn">登录</button> -->
+            <input type="submit" value="登录" class="btn"  >
+            <p class="text">还没有一个账户？ <a href="#">注册</a> <a class="back" href="index.html">返回</a></p>
+        </form>
+        <iframe src="" frameborder="0" name="frameName" id="enter"></iframe>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.headerer {
+    margin-left: 15px;
+}
+
+.article .jumbotron {
+    background-color: rgba(63, 52, 52, 0.85);
+    margin-top: 10%;
+}
+
+.article h1,
+.article p {
+    text-align: center;
+    color: aliceblue;
+}
+
+.headerer h1,
+.headerer span,
+.headerer a,
+.headerer small {
+    color: rgb(63, 52, 52);
+}
+
+body {
+    background-image: url(../images/DJI_0771.JPG) !important;
+    background: no-repeat;
+    background-size: 100%;
+}
+#gly{
+    text-decoration-line: none;
+    cursor: pointer;
+}
+#show{
+    position: fixed;
+    left: 50px;
+    top: 40px;
+}
+#show {
+    display: none;
+}
+label #btn{
+    position: fixed;
+    cursor: pointer;
+    border-radius: 3px;
+    left: 30px;
+     top: 40px;
+    }
+    
+    #nav{
+            position: fixed; 
+            top: 40px;
+           left: -1000px;
+            width: 1000px;
+            transition: 0.5s;
+            margin-top: 0px;
+    }
+    #show:checked~#nav{
+        top: 40px;
+        left: 70px;
+    }

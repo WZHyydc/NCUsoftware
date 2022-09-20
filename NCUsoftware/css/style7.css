@@ -1,0 +1,106 @@
+.clear-fix::after {
+    content:"";
+    width:100%;
+    height:0;
+    display:block;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+}
+body{
+    background-image: url(../images/南大3.jpg) !important;
+    background:repeat;
+    background-size: 100%;
+    filter: opacity(80%) ;
+}
+thead
+{
+    font-size: 2em;
+    font-style: italic;
+}
+a{
+    font-size: 2em;
+    color: black;
+}
+
+.navbar-brand
+{
+    writing-mode:vertical-lr;
+    font-size: 4em;}
+    .pagination>li>a, .pagination>li>span {
+        color: black;
+    }
+ .navbar>.container, .navbar>.container-fluid{
+    display: block;
+
+ }
+ .navbar-header.navbar-brand#labClass{
+    margin-right: 0px;
+ }
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 130px;
+    /* padding-top: 100px; */
+    margin-left: 0;
+}
+
+.navbar .navbar-default .container-fluid {
+    margin-left: 200px;
+}
+.navbar>.container, .navbar>.container-fluid{
+    margin-left: 930px;
+}
+/* .navbar-default{
+    height: 400px;
+} */
+.navbar-default .back{
+    margin-left: 910px;
+}
+
+.navbar-default .back2{
+    margin-left: -1174px;
+}
+.navbar-nav{
+    padding-left: 180px;
+}
+#labClass{
+    margin-top: 100px;
+}
+.container-fluid{
+    margin-top: 5px;
+}
+.table {
+    color: aliceblue;
+}
+
+form.example input[type=text] {
+    padding: 9px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+    color: #042331;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
